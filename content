@@ -1,0 +1,23 @@
+footer text: Made by Victor Adieri for <a href="https://alx-apply.hbtn.io" target="_blank">ALX</a>.
+Make a cool other webpage
+Close the index.html file, and create another one, called tweets.html. You can either create it from scratch (and therefore, you will have to re-type all of the <html>, <head>, <body> tags, etc. that ought to be in all webpages), or you can create it by copying it from index.html, as you've previously learned to do, and replacing what you need to replace.
+
+To see the webpage in your browser, you can access this URL: http://3.235.76.24/tweets.html. Note that the name of the tweets.html file should always be at the end of the URL like that, so that the browser knows which HTML file to render; index.html is an exception.
+
+This page may contain anything you want, but it must:
+
+embed at least one tweet;
+contain a link to your index.html webpage, for users who may go back to your homepage; and your index.html should also contain a link to tweets.html, for users landing on your homepage, who want to see your tweets!
+Here's the official documentation from Twitter about embedding single tweets in a webpage's HTML code.
+
+Make a cool website
+Decide on at least two other webpages and their content, that you could add to your website, and then create them as HTML files.
+
+However, in order to start getting consistency throughout the website, all of the HTML files (including index.html and tweets.html) must now have the same structure:
+
+The <body> tag of all of your webpages (including index.html and tweets.html) must contain exactly three direct sub-tags in that order: <header>, <main> and <footer>.
+The <header> tag must contain an unordered list (the <ul> and <li> tags) of links (the <a> tag) to each of your webpages. As you may have understood, this will serve as a navigation for your website.
+The <footer> tag must contain one paragraph with the sentence Made by Victor Adieri for <a href="https://alx-apply.hbtn.io" target="_blank">ALX</a>.
+The <main> tag must contain two direct sub-tags in that order: <article> and <aside>.
+<article> contains the content of your webpage: texts, links, images, tweets, … This is the part of index.html and tweets.html that you have already written, and you must now write it as you like for the other pages.
+<aside> contains a single paragraph, just reading for now "placeholder to add comment thread later".
